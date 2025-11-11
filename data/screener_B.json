@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "ticker": "NVDA",
+      "rsi": 28.5,
+      "signal": "Buy"
+    },
+    {
+      "ticker": "AMD",
+      "rsi": 29.2,
+      "signal": "Buy"
+    },
+    {
+      "ticker": "INTC",
+      "rsi": 25.8,
+      "signal": "Strong Buy"
+    },
+    {
+      "ticker": "MU",
+      "rsi": 31.0,
+      "signal": "Buy"
+    },
+    {
+      "ticker": "QCOM",
+      "rsi": 27.3,
+      "signal": "Buy"
+    }
+  ]
+}

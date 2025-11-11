@@ -1,0 +1,43 @@
+name: Run All Stock Screeners
+
+on:
+  schedule:
+    - cron: '0 9 * * *' # 9:00 AM UTC every day
+  workflow_dispatch: # Allows manual run
+
+jobs:
+  build-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Create data directory
+        run: mkdir -p data
+
+      # THIS IS THE KEY SCRIPTING PART
+      - name: Run Python Screeners
+        run: |
+          python scripts/screener_A.py
+          python scripts/screener_B.py
+          python scripts/screener_momentum.py
+          # Add new scripts here as you create them
+          # python scripts/screener_C.py
+
+      # THIS IS THE KEY COMMIT PART
+      - name: Commit data files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Bot: Update all screener data"
+          # This pattern commits ANY .json file in the data/ folder
+          file_pattern: "data/*.json" 
+          commit_user_name: "GitHub Actions Bot"
+          commit_user_email: "actions@github.com"

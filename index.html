@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Stock Screener Hub</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.css" />
+    <script src="https://cdn.datatables.net/2.0.8/js/dataTables.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>📊 My Stock Screener Hub</h1>
+    <p>Select a screener to view real-time stock data:</p>
+    
+    <div class="button-container">
+        <button id="loadScreenerA">📈 Load Daily Gainers (A)</button>
+        <button id="loadScreenerB">📉 Load Oversold Signals (B)</button>
+        <button id="loadScreenerMomentum">🚀 Load Momentum Breakouts</button>
+    </div>
+
+    <hr/>
+    
+    <div class="table-container">
+        <table id="stockTable" class="display" style="width:100%">
+            <thead id="tableHeader">
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+    
+</body>
+</html>

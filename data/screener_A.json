@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "ticker": "AAPL",
+      "change_pct": 5.2,
+      "volume": 1200000
+    },
+    {
+      "ticker": "MSFT",
+      "change_pct": 4.1,
+      "volume": 980000
+    },
+    {
+      "ticker": "GOOGL",
+      "change_pct": 3.8,
+      "volume": 850000
+    },
+    {
+      "ticker": "TSLA",
+      "change_pct": 7.5,
+      "volume": 2100000
+    },
+    {
+      "ticker": "AMZN",
+      "change_pct": 2.9,
+      "volume": 750000
+    }
+  ]
+}
