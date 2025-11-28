@@ -14,7 +14,7 @@
       "high_52w": 287.31,
       "dist_to_high_pct": 0.54,
       "volume_ratio": 1.02,
-      "rs_score": -0.0
+      "rs_score": -0.01
     },
     {
       "ticker": "AVGO",
@@ -22,7 +22,7 @@
       "high_52w": 399.87,
       "dist_to_high_pct": 0.58,
       "volume_ratio": 1.29,
-      "rs_score": 1.19
+      "rs_score": 1.17
     },
     {
       "ticker": "RL",
@@ -30,7 +30,7 @@
       "high_52w": 374.0,
       "dist_to_high_pct": 0.74,
       "volume_ratio": 1.07,
-      "rs_score": 0.47
+      "rs_score": 0.42
     },
     {
       "ticker": "CINF",
@@ -38,7 +38,7 @@
       "high_52w": 169.86,
       "dist_to_high_pct": 0.81,
       "volume_ratio": 1.33,
-      "rs_score": -0.06
+      "rs_score": -0.05
     },
     {
       "ticker": "PH",
@@ -70,7 +70,7 @@
       "high_52w": 328.67,
       "dist_to_high_pct": 2.55,
       "volume_ratio": 1.26,
-      "rs_score": 0.64
+      "rs_score": 0.65
     },
     {
       "ticker": "KEYS",
@@ -86,7 +86,7 @@
       "high_52w": 328.83,
       "dist_to_high_pct": 2.7,
       "volume_ratio": 1.39,
-      "rs_score": 0.65
+      "rs_score": 0.67
     },
     {
       "ticker": "WYNN",
@@ -94,7 +94,7 @@
       "high_52w": 133.95,
       "dist_to_high_pct": 3.35,
       "volume_ratio": 1.13,
-      "rs_score": 0.24
+      "rs_score": 0.21
     },
     {
       "ticker": "A",
@@ -102,7 +102,7 @@
       "high_52w": 160.27,
       "dist_to_high_pct": 3.68,
       "volume_ratio": 1.83,
-      "rs_score": -0.02
+      "rs_score": -0.01
     },
     {
       "ticker": "AME",
@@ -110,7 +110,7 @@
       "high_52w": 204.15,
       "dist_to_high_pct": 3.86,
       "volume_ratio": 1.22,
-      "rs_score": -0.12
+      "rs_score": -0.11
     },
     {
       "ticker": "DUK",
@@ -118,7 +118,7 @@
       "high_52w": 128.91,
       "dist_to_high_pct": 4.25,
       "volume_ratio": 1.08,
-      "rs_score": -0.05
+      "rs_score": -0.04
     },
     {
       "ticker": "REG",
@@ -126,7 +126,7 @@
       "high_52w": 75.93,
       "dist_to_high_pct": 6.15,
       "volume_ratio": 1.33,
-      "rs_score": -0.15
+      "rs_score": -0.14
     },
     {
       "ticker": "CVS",
@@ -134,7 +134,7 @@
       "high_52w": 85.15,
       "dist_to_high_pct": 6.21,
       "volume_ratio": 1.07,
-      "rs_score": 0.21
+      "rs_score": 0.22
     },
     {
       "ticker": "GE",
@@ -150,7 +150,7 @@
       "high_52w": 665.18,
       "dist_to_high_pct": 6.42,
       "volume_ratio": 1.17,
-      "rs_score": -0.08
+      "rs_score": -0.09
     },
     {
       "ticker": "DG",
@@ -158,13 +158,13 @@
       "high_52w": 117.24,
       "dist_to_high_pct": 7.23,
       "volume_ratio": 1.04,
-      "rs_score": 0.27
+      "rs_score": 0.26
     },
     {
       "ticker": "NDSN",
       "price": 238.0,
-      "high_52w": 257.84,
-      "dist_to_high_pct": 7.7,
+      "high_52w": 257.55,
+      "dist_to_high_pct": 7.59,
       "volume_ratio": 1.02,
       "rs_score": -0.19
     },
@@ -198,7 +198,7 @@
       "high_52w": 88.15,
       "dist_to_high_pct": 8.14,
       "volume_ratio": 1.59,
-      "rs_score": -0.16
+      "rs_score": -0.17
     },
     {
       "ticker": "XYL",
@@ -238,7 +238,7 @@
       "high_52w": 1282.32,
       "dist_to_high_pct": 9.61,
       "volume_ratio": 1.02,
-      "rs_score": 0.61
+      "rs_score": 0.58
     },
     {
       "ticker": "DE",
@@ -246,7 +246,7 @@
       "high_52w": 530.24,
       "dist_to_high_pct": 11.39,
       "volume_ratio": 3.87,
-      "rs_score": -0.11
+      "rs_score": -0.1
     },
     {
       "ticker": "MSFT",
@@ -262,7 +262,7 @@
       "high_52w": 117.94,
       "dist_to_high_pct": 12.51,
       "volume_ratio": 1.07,
-      "rs_score": -0.21
+      "rs_score": -0.2
     },
     {
       "ticker": "AOS",
@@ -286,7 +286,7 @@
       "high_52w": 33.54,
       "dist_to_high_pct": 14.04,
       "volume_ratio": 1.08,
-      "rs_score": -0.19
+      "rs_score": -0.18
     }
   ]
 }
